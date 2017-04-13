@@ -1,6 +1,6 @@
 # mbbp
 Implementation of reduced restart tabu search for mbbp problem.
-Support instances include random instances in the fold, [KONECT instances](http://konect.uni-koblenz.de/networks/)
+Support instances include [random instances](instances/GraphU_250_0.05_1.clq)  and [KONECT instances](http://konect.uni-koblenz.de/networks/)
 
 ## Installation
 ```
