@@ -1,7 +1,8 @@
 # mbbp
 Implementation of reduced restart tabu search for mbbp problem.
-Support instances include random instances in the fold, [KONECT instances]{http://konect.uni-koblenz.de/networks/}
-##Installation
+Support instances include random instances in the fold, [KONECT instances](http://konect.uni-koblenz.de/networks/)
+
+## Installation
 ```
 git clone  https://github.com/joey001/mbbp.git
 make
