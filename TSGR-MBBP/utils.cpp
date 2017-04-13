@@ -1,14 +1,26 @@
 /*
- * ral.cpp
+ * utils.cpp
  *
- *  Created on: Mar 7, 2016
+ *  Created on: Dec 3, 2015
  *      Author: zhou
  */
 
+#include "mbbp.hpp"
 
-#include "utils.hpp"
-#include <stdlib.h>
-#include <string.h>
+
+
+void shuffle(int *randlist, int len, int randlen){
+	int idx = 0;
+	assert(randlist != NULL);
+
+	for (idx = 0; idx < randlen; idx++){
+		int randid = rand() % len;
+		int tmp = randlist[idx];
+		randlist[idx] = randlist[randid];
+		randlist[randid] = tmp;
+	}
+}
+
 /*****************RandAcessList*****************************/
 RandAccessList* ral_init(int capacity){
 	RandAccessList *ral = new RandAccessList;
