@@ -16,7 +16,7 @@
 //char para_file[1024] = "/home/zhou/benchmarks/MBBP/real_life/livejournal-groupmemberships/out.livejournal-groupmemberships";
 char para_file[1024] = "/home/zhou/benchmarks/MBBP/graphA/GraphU_250_0.05_1.clq";
 //char para_file[1024] = "/home/zhou/benchmarks/MBBP/graphB/G_pbt_100_0.90_1.clq";
-int para_optimum = 99999;
+int para_optimum = 9999;
 int para_seed = 1234567;
 int para_max_seconds = 10000; //
 
