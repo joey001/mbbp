@@ -9,7 +9,7 @@ make
 ```
 ## Usage
 ```
-mbbp -f <filename> -s <seed> -o <best know result> -t <maximum seconds>
+mbbp -f <filename> -t <maximum seconds> [-s <seed>] [-o <best know result>]
 ```
 ##Branches
 Greedy: the re-implementation of greedy algorithm in XXXX
